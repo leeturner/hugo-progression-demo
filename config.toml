@@ -1,6 +1,6 @@
 baseURL = "https://hugo-progression.com"
 languageCode = "en-us"
-title = "Dummy Co Ltd Progression Framework"
+title = "Hugo Progression Demo Site"
 theme = "hugo-progression"
 publishDir = "docs"
 
