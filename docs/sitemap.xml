@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/marketing/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/operations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/product/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/web/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/operations/ops-leadership/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/mobile/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/generic/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/data/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/qualityanalyst/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/people/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/operations/ops-individual-contributor/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/engineering/backend/</loc>
+  </url>
+  
+</urlset>

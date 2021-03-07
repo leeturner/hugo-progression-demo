@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>🙂 People | Dummy Co Ltd Progression Framework</title>
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+    
+    
+
+    
+    <meta name="description"
+          content="People progression framework ">
+    <link rel="canonical" href="http://example.org/people/"/>
+    <meta property="og:title" content="🙂 People" />
+<meta property="og:description" content="People progression framework" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/people/" />
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="🙂 People"/>
+<meta name="twitter:description" content="People progression framework"/>
+
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="/css/sticky-footer.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <script>
+        function showLevel(id) {
+            $('.btn').removeClass('btn-primary');
+            $('.btn').addClass('btn-outline-secondary');
+            $("#btn-" + id).removeClass('btn-outline-secondary');
+            $("#btn-" + id).addClass('btn-primary');
+            $('.level').addClass('d-none');
+            $("#" + id).removeClass('d-none');
+        }
+    </script>
+    <link rel="stylesheet" href="/css/dashboard.css"/>
+    
+    
+    
+    
+</head><body><nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="/">Dummy Co Ltd Progression Framework</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+            data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="container-fluid">
+    <div class="row"><nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" role="navigation">
+    <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/">
+                
+                <span>🏠 Home</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Engineering</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/web/">🌐 Web</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/mobile/">👩‍💻 Mobile</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/data/">📊 Data</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/qualityanalyst/">🕵🏽‍♂️ Quality</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/backend/">🛠️ Backend</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/marketing/">
+                
+                <span>Marketing</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Operations</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-leadership/">🎯 Leadership</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-individual-contributor/">🙋‍♀️ Individual Contributor</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/product/">
+                
+                <span>Product</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/generic/">
+                
+                <span>📄 Generic</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/people/">
+                
+                <span>🙂 People</span>
+                </a>
+            </li>
+            
+            
+        </ul>
+    </div><footer class="footer">
+    <div class="container">
+        <span class="text-muted">Built with <a target="_blank" href="https://github.com/leeturner/hugo-progression"><i
+                class="fas fa-heart"></i></a> with <a target="_blank" href="https://gohugo.io/">Hugo</a></span>
+    </div>
+</footer></nav>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pb-5">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1>🙂 People</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group mr-2">
+            <button id="btn-main" type="button" class="btn btn-m btn-primary" onclick="showLevel('main');"><i
+                    class="fa fa-home"></i></button>
+            
+            <button id="btn-level1" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level1');">1
+            </button>
+            
+            <button id="btn-level2" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level2');">2
+            </button>
+            
+            <button id="btn-level3" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level3');">3
+            </button>
+            
+            <button id="btn-level4" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level4');">4
+            </button>
+            
+            <button id="btn-level5" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level5');">5
+            </button>
+            
+            <button id="btn-level6" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level6');">6
+            </button>
+            
+            <button id="btn-level7" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level7');">7
+            </button>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div id="level1" class="level1 level d-none">
+    
+    
+    
+
+<div id="communication-level1" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        <li>Proactively shares what they&rsquo;re working on with their squad and stakeholders. Contributes ideas to influence policy, process and decisions.</li>
+        
+        <li>Proactively gives affirmative and developmental feedback to people they work with.</li>
+        
+        <li>Shares ideas early and invites feedback on their work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level1" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        <li>Owns an area of day-to-day work that they&rsquo;ve been given.</li>
+        
+        <li>Completes tasks and repeatable work efficiently and to a high standard. Delivers high quality, accurate work to agreed deadlines.</li>
+        
+        <li>Prioritises tasks to keep a balance between important / not important / urgent / not urgent. Sets expectations for timescales and meets them.</li>
+        
+        <li>Uses existing processes, makes suggestions for improvements and works with the team to make it happen.</li>
+        
+        <li>Contributes to team goal-setting.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level1" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        <li>Understands general processes and core knowledge needed for their role. Can use relevant tools.</li>
+        
+        <li>Can answer a variety of people-related questions and knows where to find answers when they don&rsquo;t know. Understands the context for their work.</li>
+        
+        <li>Can source internal data from our tools (e.g. Bob, Peakon, Deltanet) to produce simple spreadsheets and reports.</li>
+        
+        <li>Pulls knowledge from well defined processes and procedures. Has development goals they&rsquo;ve set with their manager and makes progress on these. Owns and drives their own development.</li>
+        
+        <li>Brings a creative mindset to their role, starting from first principles where appropriate.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level1" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        <li>Can teach someone else how to do the tasks they mainly work on.</li>
+        
+        <li>Gets to know the members of their squad and how they like to work. Shares how they like to work. Asks for help when needed.</li>
+        
+        <li>Works collaboratively with their team to get results. Uses information, resources and support from others outside their own immediate team to get results.</li>
+        
+        <li>Proactively forms relationships across Dummy Co and acts inclusively at all times.</li>
+        
+        <li>May help with the hiring process for roles in their squad.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level1" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        <li>Understands people risk and conduct policies and procedures and follows them. Identifies risks related to own areas and shares risks with their manager. Writes documentation for changes and produces quality how-tos.</li>
+        
+        <li>Approaches their role with empathy and fairness, understanding that fair does not always mean equal. Treats every person with respect and kindness.</li>
+        
+        <li>Follows all guidance outlined in our Code of Conduct and other People policies.</li>
+        
+        <li>Thinks about what they need and expect from their manager and gives feedback to their manager on what&rsquo;s going well and what they could do better.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level2" class="level2 level d-none">
+    
+    
+    
+
+<div id="communication-level2" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Shares insight and works with the wider collective to support People plans and priorities. Can prepare information and present in a way that takes into account the different levels of detail different audiences need.</li>
+        
+        <li>Proactively gives and seeks feedback. Accepts feedback graciously.</li>
+        
+        <li>Seeks out and uncovers differing perspectives to their own.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level2" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Owns their workload of BAU specialist tasks and/or small- and medium-scale projects within their squad. Begins to delegate tasks out to their squad so they can focus on more complex projects.</li>
+        
+        <li>Works autonomously but asks for guidance when they need to. Runs meetings well inside and outside the People Collective.</li>
+        
+        <li>Focuses on important, urgent work while not losing sight of other things. Thinks in terms of the next few months and how they can have the highest impact in this timeframe.</li>
+        
+        <li>Regularly reviews and improves processes to make sure they&rsquo;re still working hard for everyone. Identifies opportunities to automate processes and helps make this happen.</li>
+        
+        <li>Actively suggests team goals.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level2" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Knows a lot about their discipline (e.g. People Operations, Reward, L&amp;D) and is becoming a specialist. May have deeper context on how their discipline applies to a specific area or Collective (e.g. COps, Tech). May be working towards CIPD level 3 or equivalent.</li>
+        
+        <li>Can confidently answer a range of questions about people processes and policies at Dummy Co.</li>
+        
+        <li>Spots trends using our tools and data to identify opportunities to make improvements in their squad. Can source internal and external data to answer simple questions, e.g. benchmarking a salary, or reporting mandatory training completion rates.</li>
+        
+        <li>Shows their commitment to personal development by learning more about other disciplines in the People Collective. Suggests personal development goals based on feedback and self-reflection and makes progress on these.</li>
+        
+        <li>Demonstrates thoughtfulness and rigour in how they go about work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level2" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Can onboard new members of the squad and act as a mentor for general processes owned by the squad.</li>
+        
+        <li>Builds relationships with members of other squads in People Collective. People are happy to work with them.</li>
+        
+        <li>Works independently on projects but brings the right people in at the right time. Helps keep track of actions and goals for the team.</li>
+        
+        <li>Puts diversity and inclusion at the heart of all new work. Has strong relationships with people across the business and proactively welcomes new joiners.</li>
+        
+        <li>Participates in the interview process for roles in their squad or other People Collective roles.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level2" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Applies and follows governance principles. Communicates and escalates risks related to their own projects and business area. Works with other people to help them analyse and address risks in their area. Updates procedures and policies.</li>
+        
+        <li>Understands the importance of work-life harmony and acts as a role model for this. Is a driven and committed person, understanding that sprints are sometimes neccessary but not a way of life.</li>
+        
+        <li>Leads by example, in line with Dummy Co culture outlined in our Code of Conduct and other People policies.</li>
+        
+        <li>Knows what they need from their manager and shares personal insight on how their manager can work best with them. Gives their manager constructive feedback. May be working towards managing someone else.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level3" class="level3 level d-none">
+    
+    
+    
+
+<div id="communication-level3" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Shares insight and works with everyone across People and other collectives to influence the development of Dummy Co&rsquo;s plans and priorities. Understands how to manage stakeholder involvement. Supports and coaches people, particularly managers, in understanding and complying with relevant policies and practices.</li>
+        
+        <li>Is comfortable with critical conversations, and gives useful actionable feedback that gets good results.</li>
+        
+        <li>Is able to take into account different perspectives and improve their work as a result.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level3" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Owns their work and identifies what they should be working on next. Works on medium- and large-scale projects or manages a vertical within their discipline or partner collective (e.g. ER for COps; training for Engineers). Delegates well, so they&rsquo;re always working on the most impactful work and to help other people develop. May act as a project lead for quarterly goals.</li>
+        
+        <li>Changes existing policies, processes and communications to align with company priorities and team goals.</li>
+        
+        <li>Thinks in terms of the next few quarters and how their squad can have the highest impact in this timeframe. Manages the expectations of stakeholders outside their squad for what can be achieved and meets them.</li>
+        
+        <li>Is ultimately responsible for changing processes in their area. Facilitates automation of processes wherever possible.</li>
+        
+        <li>Takes responsibility for one or more team goals to drive forward.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level3" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Deep knowledge of their discipline and go-to expert at Dummy Co for their specialism, e.g. Payroll, Employee Relations, Talent Management. Understands industry trends and processes and is able to interpret them to make them effective at Dummy Co. May be working towards professional qualification.</li>
+        
+        <li>Knows who to work with across People Collective or the collective they partner to get the best results.</li>
+        
+        <li>Can find and interpret data within the company, and use either spreadsheets or more advanced sources to answer business questions.</li>
+        
+        <li>Independently makes progress on personal development goals that they&rsquo;ve set for themselves.</li>
+        
+        <li>Is able to point out grey areas or shortfalls in their own work and identify opportunities for themselves to improve.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level3" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Supports and coaches those around them, encouraging an environment where others are inspired and motivated.</li>
+        
+        <li>Builds relationships with teams across Dummy Co. People would choose to work with them.</li>
+        
+        <li>Collaborates across teams in the collective to achieve a common goal. Leads projects or workstreams that include others and encourages collaborative working to achieve results.</li>
+        
+        <li>Makes sure diversity and inclusion considerations are embedded in their area.</li>
+        
+        <li>Is the hiring manager for a role and a trusted interviewer for roles within their discipline.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level3" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Is an expert in risk and compliance issues related to their role. Takes ownership for training others in risk &amp; compliance as relevant to their role. Has a strong cultural understanding, and makes decisions based on cultural awareness that compliments legislation and Dummy Co policy. Promptly and effectively deals with unforeseen risks/events as they arise and proactively shares the learnings. Creates new policies and procedures where needed.</li>
+        
+        <li>Supports their peers and team to achieve work-life harmony. Sets realistic expectations for healthy working practices and leads by example. Role models treating others with respect.</li>
+        
+        <li>Acts as a role model for the People team and offers guidance and support to all employees.</li>
+        
+        <li>Understands their role as an emerging leader and guides and supports other people. May manage one or more people in their squad or discipline.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level4" class="level4 level d-none">
+    
+    
+    
+
+<div id="communication-level4" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Can confidently advise leaders on relevant People processes and policies. Challenges and educates others based on their skills and experience. Simplifies complex ideas related to their discipline so they are clearly understood.</li>
+        
+        <li>Role models giving high quality, actionable feedback. Constantly seeks feedback and accepts developmental feedback graciously. Openly shares their development areas to help others know how to work with them.</li>
+        
+        <li>Is able to convene a discussion that helps people understand where each other is coming from and put things on a path to resolution.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level4" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Works on large-scale projects or manages complex verticals that affect everyone. Coaches others to delegate effectively so the whole team can achieve their goals.</li>
+        
+        <li>Changes existing policies, processes and communications to align with company priorities and team goals.</li>
+        
+        <li>Thinks in terms of the next year and how their specialism can have the highest impact in this timeframe.</li>
+        
+        <li>Is able to build robust and scalable processes and help manage the transition to automating all or parts of the process with product and engineering.</li>
+        
+        <li>Can take a medium-term vision and define steps needed to get there.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level4" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Go-to expert at Dummy Co for their discipline and may own a specialist area within it. May have CIPD Level 5 qualification or equivalent. Starting to develop reputation outside Dummy Co for thought leadership in their discipline.</li>
+        
+        <li>Knows who to work with across Dummy Co to get the best results.</li>
+        
+        <li>Is self sufficient at using company data resources to analyse performance and make decisions. Can do simple ad-hoc analyses without asking the data team.</li>
+        
+        <li>Drives their own development and coaches others to do the same. Supports others in the team to set effective personal development goals. Shares ideas and resources in the team that reinforce the culture of self-development.</li>
+        
+        <li>Can critically analyse how work is being done and suggest constructive and realistic proposals to improve.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level4" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is sought out for coaching and mentorship by others in the Collective.</li>
+        
+        <li>Networks with specialist colleagues and communities of practice to understand current trends, thinking and innovations in People and specialist areas. Recognised for their impact on team culture, so people want to work with them.</li>
+        
+        <li>Partners with colleagues and leaders across People and in specialist areas to develop shared insights, priorities and activities as part of Dummy Co plans and goals.</li>
+        
+        <li>Works across the people collective to move forward diversity and inclusion work.</li>
+        
+        <li>Is a trusted hiring manager who recruits a diverse team. A trusted interviewer for roles within the People Collective.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level4" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is an expert in risk and compliance issues related to their discipline. Takes ownership for making sure everyone in their area follows the relevant procedures to remain compliant. Identifies and tracks new policies and procedures needed, in advance.</li>
+        
+        <li>Sets the standard for conduct at Dummy Co and challenges those who fall below.</li>
+        
+        <li>Known as a respectful, supportive and challenging manager; OR an individual contributor that effectively plugs into broader teams and groups in the company. May manage several people in their discipline.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level5" class="level5 level d-none">
+    
+    
+    
+
+<div id="communication-level5" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Leads and influences change across different collectives to help major initiatives happen. Represents their discipline to senior stakeholders and is sought out to consult on decisions that impact important company decisions.</li>
+        
+        <li>Is able to take a conflict of perspectives and move everyone beyond it.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level5" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Looks after delivering and evaluating significant ongoing, annual and planned ‘one-off’ people programmes and projects.</li>
+        
+        <li>May own a complex discipline within People Collective (e.g. Hiring, POps, L&amp;D). Encourages fast execution within the People Collective while keeping focus on legal, legislative and regulatory requirements. Creates momentum and keeps the team motivated and engaged.</li>
+        
+        <li>Can prioritise projects and other people&rsquo;s time to meet company demands while not losing sight of BAU work; making sure the team is working on the things that have the biggest impact.</li>
+        
+        <li>Empowers the team to build robust processes and makes intelligent decisions about whether to continue making improvements in-house vs using 3rd party suppliers. Is able to work with partners to build end-to-end automation of process or workflows across multiple areas.</li>
+        
+        <li>Can take a long-term vision and define steps needed to get there. Communicates their area’s role within the larger mission of the company.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level5" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Owns their discipline and has breadth of knowledge across Dummy Co and People Collective. Known outside Dummy Co for their knowledge and expertise in their discipline. May have CIPD Level 7 qualification or equivalent.</li>
+        
+        <li>Understands the functions and purpose of other Collectives.</li>
+        
+        <li>Role models using data to make great decisions for their area. Coaches team to use data effectively in daily work. Works with the data team to create more complex analyses to improve the performance of their area.</li>
+        
+        <li>Creates a culture in their discipline for self development. Shares thought leadership that encourages growth mindset and role models constant learning and self-development.</li>
+        
+        <li>Is an intellectual leader. People seek them out to challenge and improve their thinking.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level5" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is sought out for coaching and mentorship by others around Dummy Co. Coaches and builds senior managers&rsquo; ability to anticipate and pre-empt organisation issues.</li>
+        
+        <li>Build relationships and forms alliances with internal and external specialists and communities to keep ahead of emerging People and specialist trends, ideas and innovations, and to keep ahead of changes.</li>
+        
+        <li>Unblocks people within their area, coaching others to come up with answers to problems.</li>
+        
+        <li>Works with leaders across Dummy Co to embed diversity and inclusion considerations and identify opportunities for improvement.</li>
+        
+        <li>Recruits, attracts and retains top tier talent for their discipline. A trusted interviewer for senior hires at Dummy Co, including at the ExCo level.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level5" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Develops action plans to mitigate the risk of implementing new people policies and plans. Use insights to influence leaders and colleagues to current risks or benefits of decisions or actions that affect the long-term reputation and health of Dummy Co. Instills culture for documenting</li>
+        
+        <li>Brings people along with them and acts as a supporter for all members of the People Collective. Understands their responsibility as a leader at Dummy Co and reflects that responsibility in their behaviour.</li>
+        
+        <li>Leads through influence, building up a network of strong relationships and presenting their ideas in the right way to lead others in the right direction. Capable of leading a team with diverse skills while giving people lots of autonomy and cultivating a CEO mindset. Thinks carefully about the right amount of leadership and is able to make themselves less necessary to the team&rsquo;s effective function. Is likely to manage several people in their discipline and/or mentor people from around the company.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level6" class="level6 level d-none">
+    
+    
+    
+
+<div id="communication-level6" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Leads and champions implementing the most significant organisation change activities. Uses insight about opportunities and risks to influence executive team decisions that affect the long-term reputation, health and growth of the organisation.</li>
+        
+        <li>Works tirelessly to keep all areas aligned. Builds culture of knowledge sharing and documenting.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level6" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Sponsors and evaluates delivery of complex, high-impact People programmes and projects across the organisation.</li>
+        
+        <li>Assesses and reviews the impact of projects/solutions, staying alert to changes in context, and makes appropriate corrections to strategy and solutions. Leads People and Dummy Co strategic development to address risks and opportunities for the organisation.</li>
+        
+        <li>Understands the big picture and integrates company goals into their area, looking 12 months ahead.</li>
+        
+        <li>Assesses the changing social, strategic and business/economic environment to gain insights and identify organisational strategic requirements.</li>
+        
+        <li>Communicates the long-term vision and mission for the company and their discipline. Assesses and shapes organisational culture to meet current and future challenges.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level6" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Wide breadth of generalist People knowledge at a high level. Strong generalist People skill set including experience in creating inspiring cultures, developing talent and quickly scaling up businesses. Go-to expert within industry in People discipline.</li>
+        
+        <li>Understands all areas and disciplines of the People Collective at a high level. Understands how People Collective interacts with all other Collectives and fits into the mission of Dummy Co as a whole.</li>
+        
+        <li>Assesses and interprets complex data and feedback to gain insights about Dummy Co to anticipate the needs of the org in the future. Can identify shortfalls in the company&rsquo;s data and works with the data team to build new frameworks and datasets to enable new lines of work.</li>
+        
+        <li>Can easily context switch across disciplines within People Collective and pick up new concepts. Is a role model for self-development with ambitious personal development goals that they share with others.</li>
+        
+        <li>Is an intellectual leader. ExCo seek them out to challenge and improve their thinking.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level6" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Coaches senior leadership at Dummy Co to help them build developmental culture in their own teams, and anticipate and pre-empt organisation issues.</li>
+        
+        <li>Develops strong and trusted partnerships with our leadership team to challenge, guide and advise; holds executives to account for their behaviours and values.</li>
+        
+        <li>Unblocks people inside and outside their area by coaching others to come up with answers to problems.</li>
+        
+        <li>Nurtures and promotes employer brand. Individually attracts top talent to Dummy Co. May bring a network of talent to their discipline or collective.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level6" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is involved with risk management and mitigation at the highest industry level. Leads by example and proves their discipline is managing risk and compliance within appetite. Gets involved in and identifies opportunities for colleagues to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business.</li>
+        
+        <li>Fosters ability for teams to enjoy the journey and work sustainably. Leads the way in achieving high performance at Dummy Co whilst balancing outside interests and personal life harmony.</li>
+        
+        <li>Empowers autonomous teams to succeed and is sought after to provide direction in multiple areas. Is able to consistently do this despite the skillsets in the teams they work with changing. Is likely to manage other managers in the People collective. Is a mentor to high potential people around the company.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level7" class="level7 level d-none">
+    
+    
+    
+
+<div id="communication-level7" class="communication">
+    
+    <h3>💬 Communication: transparent communication; giving and receiving feedback</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Proactively communicates major changes to the board, executive team and senior leaders so there are no surprises. Confidently delivers high-impact, inspiring communications to Dummy Co and beyond. Makes complex messages clear and easy to understand.</li>
+        
+        <li>Shows vulnerability and is approachable as a leader. Creates a culture where people thrive on feedback. Gives feedback in the moment and accepts constructive feedback graciously. Leads by example on personal development using humility, foresight and EQ.</li>
+        
+        <li>Builds capability of exec team to surface and resolve conflict.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level7" class="impact">
+    
+    <h3>💥 Impact: ambiguity and impact of their work; thinking ahead</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is ultimately accountable for the highest-impact People initiatives. Owns KRIs for the People Collective. Holds SMF 18.</li>
+        
+        <li>Helps guide leaders to make the right trade-offs between speed and risk without breaching risk appetites. Holds accountability for significant policies and can evidence compliance including SM/CR responsibilities.</li>
+        
+        <li>Anticipates and mitigates People problems long before they occur and coaches leaders to do the same. Thinks multiple years ahead but inspires leaders to make things happen now.</li>
+        
+        <li>Champions scalability for the collective to make sure all teams continue to grow in line with the company whilst remaining lean and flexible. Builds the capability of leaders to keep challenging themselves on how to use automation and tech-led solutions to fulfil the People mission.</li>
+        
+        <li>Sets out inspiring vision and sense of purpose to enable leaders to set ambitious goals. Empower and challenge teams to surprise themselves by hitting them.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level7" class="knowledge">
+    
+    <h3>🧠 Knowledge and Thinking: breadth and depth of knowledge; thinking skills; self-development</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>World-class thought-leader across Dummy Co, the financial services industry and leading tech companies. Makes sure Dummy Co maintains a commitment to creating a world-class people experience, balancing initiatives set by the wider business with the impact on people. Coaches leaders on balancing People focus with need for positive business results.</li>
+        
+        <li>Creates a culture where data drives good decision making. Has high expectations of leaders using data and encouraging their teams to upskill themselves to use and interpret data.</li>
+        
+        <li>Contributes to thought leadership on effective and creative ways to run an excellent org from a People perspective.</li>
+        
+        <li>Is a thought leader. Is sought out by other industry experts for their ideas, knowledge and expertise.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level7" class="teamwork">
+    
+    <h3>🤝 Teamwork: teamwork skills; level of autonomy</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Creates culture for leaders to builds capable and motivated teams. Coaches peers at Exco level and drives the expectation of Dummy Co being a high performance environment with an ethos of continuous learning and development.</li>
+        
+        <li>Is the cultural ambassador for Dummy Co to the rest of the world.</li>
+        
+        <li>Establishes a network of internal and external counterparts and executive communities of practice to keep ahead of emerging People and specialist trends, ideas and industry/sector insights, locally and internationally.</li>
+        
+        <li>Creates a culture where everyone belongs and is included. Sets strategic vision for building a diverse company and holds senior leaders to account for valuing and promoting this.</li>
+        
+        <li>Sees the holistic picture of skills required a year from now and nurtures talent internally. Makes strategic hires, cultivating relationships over many months to get people over to Dummy Co who didn’t realise they needed a new job. Cultivates and drives initatives to build employer brand at the highest level.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level7" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct &amp; Culture: level of risk &amp; compliance knowledge and ownership; professional conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Leads risk mitigation, governance and ethics strategies for the People Collective, in line with SMF 18 responsibilites. Creates a strong risk culture throughout the organisation. Owns policies and can prove we&rsquo;re complying with them. Spots ways to manage risk and implements them company wide.</li>
+        
+        <li>Creates a culture of mutual respect where people can do the best work of their lives. Sets the strategy for continually developing our culture.</li>
+        
+        <li>Is a world-class manager of leaders within the collective. Is a mentor to high potential people and others across the industry. Coaches other execs to be better managers to senior leaders at Dummy Co.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+
+<div id="main" class="level">
+    <div class="jumbotron mt-5 text-center">To view a framework, please select a level above.</div>
+
+</div>
+
+
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="/js/bootstrap-4.5.2/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

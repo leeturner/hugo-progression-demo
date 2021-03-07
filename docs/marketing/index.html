@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Marketing Framework | Dummy Co Ltd Progression Framework</title>
+    <meta name="generator" content="Hugo 0.74.3" />
+    
+    
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+    
+    
+
+    
+    <meta name="description"
+          content="Marketing progression framework ">
+    <link rel="canonical" href="http://example.org/marketing/"/>
+    <meta property="og:title" content="Marketing Framework" />
+<meta property="og:description" content="Marketing progression framework" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/marketing/" />
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Marketing Framework"/>
+<meta name="twitter:description" content="Marketing progression framework"/>
+
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="/css/sticky-footer.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <script>
+        function showLevel(id) {
+            $('.btn').removeClass('btn-primary');
+            $('.btn').addClass('btn-outline-secondary');
+            $("#btn-" + id).removeClass('btn-outline-secondary');
+            $("#btn-" + id).addClass('btn-primary');
+            $('.level').addClass('d-none');
+            $("#" + id).removeClass('d-none');
+        }
+    </script>
+    <link rel="stylesheet" href="/css/dashboard.css"/>
+    
+    
+    
+    
+</head><body><nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="/">Dummy Co Ltd Progression Framework</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+            data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="container-fluid">
+    <div class="row"><nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" role="navigation">
+    <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/">
+                
+                <span>🏠 Home</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Engineering</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/web/">🌐 Web</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/mobile/">👩‍💻 Mobile</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/data/">📊 Data</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/qualityanalyst/">🕵🏽‍♂️ Quality</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/backend/">🛠️ Backend</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/marketing/">
+                
+                <span>Marketing</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Operations</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-leadership/">🎯 Leadership</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-individual-contributor/">🙋‍♀️ Individual Contributor</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/product/">
+                
+                <span>Product</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/generic/">
+                
+                <span>📄 Generic</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/people/">
+                
+                <span>🙂 People</span>
+                </a>
+            </li>
+            
+            
+        </ul>
+    </div><footer class="footer">
+    <div class="container">
+        <span class="text-muted">Built with <a target="_blank" href="https://github.com/leeturner/hugo-progression"><i
+                class="fas fa-heart"></i></a> with <a target="_blank" href="https://gohugo.io/">Hugo</a></span>
+    </div>
+</footer></nav>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pb-5">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1>Marketing Framework</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group mr-2">
+            <button id="btn-main" type="button" class="btn btn-m btn-primary" onclick="showLevel('main');"><i
+                    class="fa fa-home"></i></button>
+            
+            <button id="btn-level1" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level1');">1
+            </button>
+            
+            <button id="btn-level2" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level2');">2
+            </button>
+            
+            <button id="btn-level3" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level3');">3
+            </button>
+            
+            <button id="btn-level4" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level4');">4
+            </button>
+            
+            <button id="btn-level5" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level5');">5
+            </button>
+            
+            <button id="btn-level6" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level6');">6
+            </button>
+            
+            <button id="btn-level7" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level7');">7
+            </button>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div id="level1" class="level1 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level1" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        <li>Understands the fundamentals and picks up new things quickly.</li>
+        
+        <li>Learning and being developed by others.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level1" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        <li>Completes well-defined tasks to a high standard with minimal direction.</li>
+        
+        <li>Asks for help when they need to.</li>
+        
+        <li>Adjusts processes to make them work better.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level1" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        <li>Seeks out the information they need to do their role, and communicates what they&rsquo;re doing with the people affected.</li>
+        
+        <li>Accepts feedback graciously and works to improve.</li>
+        
+        <li>Learns from their mistakes.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level2" class="level2 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level2" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Develops a strong knowledge of their area and is the source of wisdom.</li>
+        
+        <li>Makes well-reasoned decisions with significant input and guidance from others.</li>
+        
+        <li>Actively seeks out learning and starts to own their own development.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level2" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Fully owns an area, channel or discipline and works on small to medium projects and types of work with guidance from others.</li>
+        
+        <li>Accountable for deliverables of their work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level2" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Seeks out feedback, gives useful feedback to others they work with.</li>
+        
+        <li>Proactively communicates what they&rsquo;re working on, assumptions they&rsquo;ve made, and decisions they&rsquo;ve made on the direction of their work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level3" class="level3 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level3" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Contextualises their decisions with their deepening knowledge of other areas of the business related to their work.</li>
+        
+        <li>Has knowledge that means external sources want to hear from them, independent of Dummy Co&rsquo;s success.</li>
+        
+        <li>Drives the majority of their personal development and asks for feedback and input at the right time.</li>
+        
+        <li>Rarely needs extra knowledge from others.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level3" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Starts to input on other decisions in the business and doesn&rsquo;t need to ask to be involved.</li>
+        
+        <li>Accountable for deliverables in their area, not just their specific work.</li>
+        
+        <li>Works on medium sized projects they initiate.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level3" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Communicates the high level of their work outside their team and proactively seeks out challenges.</li>
+        
+        <li>Communicates when they&rsquo;re blocked and what&rsquo;s needed to unblock them.</li>
+        
+        <li>Shares their knowledge with the broader team.</li>
+        
+        <li>Makes a positive contribution to the culture and working environment.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level4" class="level4 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level4" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Understands best practices and trends and contextualises knowledge within the wider business.</li>
+        
+        <li>Is the go-to expert in one or more areas. Actively sought out by others for input and guidance on their area.</li>
+        
+        <li>Teaches others and owns their own development.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level4" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Consistent record of very strong ownership for their area.</li>
+        
+        <li>Accountable for results in that area.</li>
+        
+        <li>Takes responsibility for complex or important medium-term projects.</li>
+        
+        <li>Initiates decision-making and influences across the company.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level4" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Communicates the high level of their work with the whole company.</li>
+        
+        <li>Makes sure everyone affected has opportunities to input into relevant decisions.</li>
+        
+        <li>Unblocks other people, even those outside their team.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level5" class="level5 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level5" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Deep knowledge and understanding of several key areas.</li>
+        
+        <li>Sought out for guidance and insight on multiple subjects.</li>
+        
+        <li>Teaches, guides and mentors others.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level5" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Focuses on the most impactful work.</li>
+        
+        <li>Drives forward large, long-term projects that have significant impact on the business.</li>
+        
+        <li>Fully accountable for their area&rsquo;s performance.</li>
+        
+        <li>Influences across the company, including high level strategy.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level5" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Helps others make their own decisions.</li>
+        
+        <li>Gets buy-in for their goals.</li>
+        
+        <li>Guides others&rsquo; work when needed; looks for ways to help other people in the team to really shine and develop their own skills.</li>
+        
+        <li>Acts as a role-model or mentor.</li>
+        
+        <li>Gives useful feedback to those around them.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level6" class="level6 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level6" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Strong knowledge of the entire relevant landscape.</li>
+        
+        <li>Deep understanding and knowledge in key areas, which is recognised internally and externally.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level6" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Guides the whole company&rsquo;s approach on a range of subjects.</li>
+        
+        <li>Overall responsibility for an entire area of the business.</li>
+        
+        <li>Comfortable making high-level decisions and empowers others to make decisions.</li>
+        
+        <li>Influences industry-wide.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level6" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Drives the company forward; communicates the long-term vision.</li>
+        
+        <li>Helps other people develop themselves and regularly gives insightful, useful feedback to people across the company.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level7" class="level7 level d-none">
+    
+    
+    
+
+<div id="domain-knowledge-level7" class="domain-knowledge">
+    
+    <h3>🧠 Domain Knowledge and Skills</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Builds their deep domain knowledge effectively and impactfully into the wider business context, with a deep understanding of the company goals, challenges and opportunities.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="ownership-influence-level7" class="ownership-influence">
+    
+    <h3>🗣️ Ownership and Influence</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Is the accountable executive for their area.</li>
+        
+        <li>Sought out for guidance on any topic across the company.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="communication-leadership-level7" class="communication-leadership">
+    
+    <h3>🕴️ Communication and Leadership</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Inspires outside of their team on company goals and mission.</li>
+        
+        <li>Coaches and develops senior execs in their team.</li>
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+
+<div id="main" class="level">
+    <div class="jumbotron mt-5 text-center">To view a framework, please select a level above.</div>
+
+</div>
+
+
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="/js/bootstrap-4.5.2/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
