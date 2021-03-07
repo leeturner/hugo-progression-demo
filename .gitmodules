@@ -1,0 +1,3 @@
+[submodule "themes/hugo-progression"]
+	path = themes/hugo-progression
+	url = https://github.com/leeturner/hugo-progression.git
