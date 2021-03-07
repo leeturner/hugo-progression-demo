@@ -1,5 +1,5 @@
 ---
-title: Welcome To Progression at Dummy Co 🎉
+title: Welcome To The Hugo Progression Demo Site 🎉
 linktitle: 🏠 Home
 description: Welcome To Progression at Dummy Co
 menu: 
@@ -7,7 +7,6 @@ menu:
         weight: 1
 ---
 
-# Hugo Progression
 Hugo Progression is a [Hugo](https://gohugo.io/) template that can render progression frameworks using the same data format as the [Monzo progression framework](https://github.com/monzo/progression-framework)
 
 ## What Are Progression Frameworks ?
