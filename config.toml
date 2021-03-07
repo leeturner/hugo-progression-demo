@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://leeturner.github.io/hugo-progression-demo/"
 languageCode = "en-us"
 title = "Dummy Co Ltd Progression Framework"
 theme = "hugo-progression"

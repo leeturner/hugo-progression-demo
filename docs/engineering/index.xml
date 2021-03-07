@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Engineerings on Dummy Co Ltd Progression Framework</title>
-    <link>http://example.org/engineering/</link>
+    <link>https://leeturner.github.io/hugo-progression-demo/engineering/</link>
     <description>Recent content in Engineerings on Dummy Co Ltd Progression Framework</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/engineering/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leeturner.github.io/hugo-progression-demo/engineering/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>🌐 Web Engineering Framework</title>
-      <link>http://example.org/engineering/web/</link>
+      <link>https://leeturner.github.io/hugo-progression-demo/engineering/web/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/engineering/web/</guid>
+      <guid>https://leeturner.github.io/hugo-progression-demo/engineering/web/</guid>
       <description>About our engineering progression frameworks The engineering progression framework is a tool that helps engineers and managers:
  make development and career plans talk about what we’re looking for from engineers in a consistent way set a fair level of compensation.  The framework is a compass, not a GPS.
 It&amp;rsquo;s meant to be helpful. It&amp;rsquo;s not meant to be a rating system for humans, free from edge cases.
@@ -24,10 +24,10 @@ How does it work?</description>
     
     <item>
       <title>👩‍💻 Mobile Engineering Framework</title>
-      <link>http://example.org/engineering/mobile/</link>
+      <link>https://leeturner.github.io/hugo-progression-demo/engineering/mobile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/engineering/mobile/</guid>
+      <guid>https://leeturner.github.io/hugo-progression-demo/engineering/mobile/</guid>
       <description>About our engineering progression frameworks The engineering progression framework is a tool that helps engineers and managers:
  make development and career plans talk about what we’re looking for from engineers in a consistent way set a fair level of compensation.  The framework is a compass, not a GPS.
 It&amp;rsquo;s meant to be helpful. It&amp;rsquo;s not meant to be a rating system for humans, free from edge cases.
@@ -36,10 +36,10 @@ How does it work?</description>
     
     <item>
       <title>📊 Data Engineering Framework</title>
-      <link>http://example.org/engineering/data/</link>
+      <link>https://leeturner.github.io/hugo-progression-demo/engineering/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/engineering/data/</guid>
+      <guid>https://leeturner.github.io/hugo-progression-demo/engineering/data/</guid>
       <description>About our engineering progression frameworks The engineering progression framework is a tool that helps engineers and managers:
  make development and career plans talk about what we’re looking for from engineers in a consistent way set a fair level of compensation.  The framework is a compass, not a GPS.
 It&amp;rsquo;s meant to be helpful. It&amp;rsquo;s not meant to be a rating system for humans, free from edge cases.
@@ -48,10 +48,10 @@ How does it work?</description>
     
     <item>
       <title>🕵🏽‍♂️ Quality Analyst Framework</title>
-      <link>http://example.org/engineering/qualityanalyst/</link>
+      <link>https://leeturner.github.io/hugo-progression-demo/engineering/qualityanalyst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/engineering/qualityanalyst/</guid>
+      <guid>https://leeturner.github.io/hugo-progression-demo/engineering/qualityanalyst/</guid>
       <description>About our engineering progression frameworks The engineering progression framework is a tool that helps engineers and managers:
  make development and career plans talk about what we’re looking for from engineers in a consistent way set a fair level of compensation.  The framework is a compass, not a GPS.
 It&amp;rsquo;s meant to be helpful. It&amp;rsquo;s not meant to be a rating system for humans, free from edge cases.
@@ -60,10 +60,10 @@ How does it work?</description>
     
     <item>
       <title>🛠️ Backend Engineering Framework</title>
-      <link>http://example.org/engineering/backend/</link>
+      <link>https://leeturner.github.io/hugo-progression-demo/engineering/backend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/engineering/backend/</guid>
+      <guid>https://leeturner.github.io/hugo-progression-demo/engineering/backend/</guid>
       <description>About our engineering progression frameworks The engineering progression framework is a tool that helps engineers and managers:
  make development and career plans talk about what we’re looking for from engineers in a consistent way set a fair level of compensation.  The framework is a compass, not a GPS.
 It&amp;rsquo;s meant to be helpful. It&amp;rsquo;s not meant to be a rating system for humans, free from edge cases.
