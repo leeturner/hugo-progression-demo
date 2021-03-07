@@ -1,4 +1,4 @@
-baseURL = "hugo-progression.com"
+baseURL = "https://hugo-progression.com"
 languageCode = "en-us"
 title = "Dummy Co Ltd Progression Framework"
 theme = "hugo-progression"
