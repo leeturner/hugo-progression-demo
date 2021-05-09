@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>🎯 Ops Leadership Framework | Hugo Progression Demo Site</title>
+    <meta name="generator" content="Hugo 0.83.1" />
+    
+    
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+    
+    
+
+    
+    <meta name="description"
+          content="Ops Leadership progression framework ">
+    <link rel="canonical" href="https://hugo-progression.com/operations/ops-leadership/"/>
+    <meta property="og:title" content="🎯 Ops Leadership Framework" />
+<meta property="og:description" content="Ops Leadership progression framework" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hugo-progression.com/operations/ops-leadership/" /><meta property="article:section" content="operations" />
+
+
+
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="🎯 Ops Leadership Framework"/>
+<meta name="twitter:description" content="Ops Leadership progression framework"/>
+
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-4.5.2/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="/css/sticky-footer.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <script>
+        function showLevel(id) {
+            $('.btn').removeClass('btn-primary');
+            $('.btn').addClass('btn-outline-secondary');
+            $("#btn-" + id).removeClass('btn-outline-secondary');
+            $("#btn-" + id).addClass('btn-primary');
+            $('.level').addClass('d-none');
+            $("#" + id).removeClass('d-none');
+        }
+    </script>
+    <link rel="stylesheet" href="/css/dashboard.css"/>
+    
+    
+    
+    
+</head><body><nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="/">Hugo Progression Demo Site</a>
+    <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse"
+            data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+<div class="container-fluid">
+    <div class="row"><nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" role="navigation">
+    <div class="sidebar-sticky pt-3">
+        <ul class="nav flex-column">
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/">
+                
+                <span>🏠 Home</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Engineering</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/web/">🌐 Web</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/mobile/">👩‍💻 Mobile</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/data/">📊 Data</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/qualityanalyst/">🕵🏽‍♂️ Quality</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/engineering/backend/">🛠️ Backend</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/marketing/">
+                
+                <span>Marketing</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="collapse" data-target="#submenu-1" href="#">
+                    
+                    <span>Operations</span>
+                </a>
+                <ul class="sub-menu">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-leadership/">🎯 Leadership</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " href="/operations/ops-individual-contributor/">🙋‍♀️ Individual Contributor</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/product/">
+                
+                <span>Product</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/generic/">
+                
+                <span>📄 Generic</span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/people/">
+                
+                <span>🙂 People</span>
+                </a>
+            </li>
+            
+            
+        </ul>
+    </div><footer class="footer">
+    <div class="container">
+        <span class="text-muted">Built with <a target="_blank" href="https://github.com/leeturner/hugo-progression"><i
+                class="fas fa-heart"></i></a> with <a target="_blank" href="https://gohugo.io/">Hugo</a></span>
+    </div>
+</footer></nav>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 pb-5">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1>🎯 Ops Leadership Framework</h1>
+    <div class="btn-toolbar mb-2 mb-md-0">
+        <div class="btn-group mr-2">
+            <button id="btn-main" type="button" class="btn btn-m btn-primary" onclick="showLevel('main');"><i
+                    class="fa fa-home"></i></button>
+            
+            <button id="btn-level1" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level1');">1
+            </button>
+            
+            <button id="btn-level2" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level2');">2
+            </button>
+            
+            <button id="btn-level3" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level3');">3
+            </button>
+            
+            <button id="btn-level4" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level4');">4
+            </button>
+            
+            <button id="btn-level5" type="button" class="btn btn-m btn-outline-secondary"
+                    onclick="showLevel('level5');">5
+            </button>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<div id="level1" class="level1 level d-none">
+    
+    
+    
+
+<div id="communication-level1" class="communication">
+    
+    <h3>💬 Communication</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level1" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level1" class="teamwork">
+    
+    <h3>🤝 Teamwork</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level1" class="impact">
+    
+    <h3>💥 Impact</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level1" class="knowledge">
+    
+    <h3>🧠 Knowledge</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level2" class="level2 level d-none">
+    
+    
+    
+
+<div id="communication-level2" class="communication">
+    
+    <h3>💬 Communication</h3>
+    <ul>
+        
+        
+        
+        <li>Communicates in a professional and Dummy Co style way to squad and peers.</li>
+        
+        <li>Communicates trade-offs between COps preferences and achieving goals or ensuring optimal customer experience.</li>
+        
+        <li>Shares ideas/best practice with similar teams.</li>
+        
+        <li>Strong relationships and understanding of decision making remits across different Ops and company teams.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level2" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct</h3>
+    <ul>
+        
+        
+        
+        <li>Develops a strong understanding and culture of risk and applies relevant procedures appropriately within COps and Ops.</li>
+        
+        <li>Is able to emanate Dummy Co’s culture in their approach to work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level2" class="teamwork">
+    
+    <h3>🤝 Teamwork</h3>
+    <ul>
+        
+        
+        
+        <li>Develops and shares best practices and repeatable processes for developing high performing squads.</li>
+        
+        <li>Ability to take on low performing squad and turn them around.</li>
+        
+        <li>Creates supportive and inspiring squad culture. Leads by example.</li>
+        
+        <li>Is a role model for giving/receiving feedback effectively.</li>
+        
+        <li>Encourages others within their team to be proactive with feedback.</li>
+        
+        <li>Teaches the importance of having this type of culture.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level2" class="impact">
+    
+    <h3>💥 Impact</h3>
+    <ul>
+        
+        
+        
+        <li>Owns performance of squad, handles performance and conduct issues.</li>
+        
+        <li>Supports development of new Captains.</li>
+        
+        <li>Helps team set and achieve their own ambitious goals linked to company goals.</li>
+        
+        <li>Contributes to building and implementing processes that deliver optimal customer experience and employee well-being.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level2" class="knowledge">
+    
+    <h3>🧠 Knowledge</h3>
+    <ul>
+        
+        
+        
+        <li>Go to expert within COps and Ops.</li>
+        
+        <li>Provides insight to Ops leadership.</li>
+        
+        <li>Develops and shares best practices and repeatable processes for developing high performing squads.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level3" class="level3 level d-none">
+    
+    
+    
+
+<div id="communication-level3" class="communication">
+    
+    <h3>💬 Communication</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Communicates in a professional and Dummy Co style way to company (presenting or online) on issues regarding their team.</li>
+        
+        <li>Shares ideas/best practice with similar teams.</li>
+        
+        <li>Helps to build relationships outside of their team.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level3" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Creates a strong risk culture with the people around them through behaviour and approach.</li>
+        
+        <li>Ensures reportees are trained up on risk &amp; compliance as relevant to their role.</li>
+        
+        <li>Promptly and effectively deals with unforeseen risks as they arise</li>
+        
+        <li>Is able to emanate Dummy Co’s culture in their approach to work.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level3" class="teamwork">
+    
+    <h3>🤝 Teamwork</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Creates high performance expectations with managers they lead.</li>
+        
+        <li>Can build new teams from scratch.</li>
+        
+        <li>Finds a way so even challenging individuals can work well in a team environment.</li>
+        
+        <li>Ensuring that the processes designed are adhered to.</li>
+        
+        <li>Feedback on processes to make sure they’re as efficient as possible.</li>
+        
+        <li>Evidence or feedback exists to prove working with this leader is a positive experience due to their ‘team player’ attitude and behaviours.</li>
+        
+        <li>Is a role model for giving/receiving feedback effectively.</li>
+        
+        <li>Encourages others within their team to be proactive with feedback.</li>
+        
+        <li>Teaches the importance of having this type of culture.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level3" class="impact">
+    
+    <h3>💥 Impact</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Owns problems, generates solutions and leads implementation. Begins to self-identify problems that need solving. Accurately scopes out length and difficulty of tasks and projects. Experience to challenge proposed solutions.</li>
+        
+        <li>Comfortable changing direction quickly where required.</li>
+        
+        <li>Helps team set their own ambitious goals linked to company goals. Delegates appropriately to make sure team can unblock themselves.</li>
+        
+        <li>Effectively navigates challenging trade-offs between achieving goals and ensuring optimal customer experience.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level3" class="knowledge">
+    
+    <h3>🧠 Knowledge</h3>
+    <ul>
+        
+        
+        
+        
+        
+        <li>Go to expert within company, e.g. invited to give opinion at C Suite meetings.</li>
+        
+        <li>Identifies existing scaling problems and leads implementation of solutions.</li>
+        
+        <li>Evaluates scaling solutions during &amp; if applicable after.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level4" class="level4 level d-none">
+    
+    
+    
+
+<div id="communication-level4" class="communication">
+    
+    <h3>💬 Communication</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Communicates their area’s role within the larger mission of the company.</li>
+        
+        <li>Effectively communicates company vision, short and long term goals to team.</li>
+        
+        <li>Communicates to those high up to advocate for team.</li>
+        
+        <li>Empowers and unblocks team to grow their network at Dummy Co and beyond.</li>
+        
+        <li>Suggests new partnerships and facilitates relationship building with other groups and group leads.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level4" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Creates a strong risk culture in their team through behaviour and approach.</li>
+        
+        <li>Educates the team on the importance of making the right trade-offs and how to do this effectively.</li>
+        
+        <li>Leverages teams to source sophisticated and creative analysis and recommends remediating action</li>
+        
+        <li>Responds to complex issues devising smart strategies for the mitigation of risk</li>
+        
+        <li>Is able to emanate Dummy Co’s culture in their approach to work.</li>
+        
+        <li>Demonstrates their ability to be transparent.</li>
+        
+        <li>Encourages people around them to represent Dummy Co’s culture.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level4" class="teamwork">
+    
+    <h3>🤝 Teamwork</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Building track-record for high-performance teams under your direction.</li>
+        
+        <li>Can demonstrate the ability to deal with low-performance.</li>
+        
+        <li>Can design practices, processes, and procedures which allow managing from a distance.</li>
+        
+        <li>Creates feedback culture.</li>
+        
+        <li>Regularly shares feedback received with team and their plans to work on it.</li>
+        
+        <li>Switches between coaching and advisory style approaches to 1:1s with team. Knows when either is appropriate.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level4" class="impact">
+    
+    <h3>💥 Impact</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Identifies high-impact or complex problems the company will face down the line, in their domain.</li>
+        
+        <li>Prioritises most impactful problems to work on with awareness of future risks.</li>
+        
+        <li>Mature unflappable handling of crises and stressful situations.</li>
+        
+        <li>Empowers team to identify and own goals, challenging them to aim even higher.</li>
+        
+        <li>Sets high expectations of outcomes.</li>
+        
+        <li>Builds teams which can run reasonably autonomously with high-level guidance and intervention.</li>
+        
+        <li>Starting to course-correct</li>
+        
+        <li>Coaches leaders to prioritise.</li>
+        
+        <li>Identifies anything which could impinge on Dummy Co’s ability to deliver world-class customer service.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level4" class="knowledge">
+    
+    <h3>🧠 Knowledge</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        <li>Leads area experts within company and can call upon others as needed.</li>
+        
+        <li>Has depth of knowledge in a particular area and breadth of knowledge across their domain.</li>
+        
+        <li>Connects with other domain leads to run scaling solutions.</li>
+        
+        <li>Thinks beyond their domain.</li>
+        
+        <li>Delegates to people within their team to support speed.</li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+<div id="level5" class="level5 level d-none">
+    
+    
+    
+
+<div id="communication-level5" class="communication">
+    
+    <h3>💬 Communication</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Communicates beyond Dummy Co regarding their area in settings that they can prepare for with the help of others.</li>
+        
+        <li>Confident, clear communicator at All Hands etc. Simplifies messages for teams.</li>
+        
+        <li>Seamlessly partners with other teams and leads to drive Dummy Co business goals forward.</li>
+        
+        <li>Drives success both within their team and within the organisation across several teams.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="conduct-level5" class="conduct">
+    
+    <h3>🧑‍🎓 Conduct</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Creates a strong risk culture across teams they work with through behaviour and approach.</li>
+        
+        <li>Helps to guide their team to make trade-offs between speed and risk, with help from C Suite.</li>
+        
+        <li>Participates in risk management and mitigation at the highest industry level</li>
+        
+        <li>Leads by example and proves their area is managing risk and compliance within appetite.</li>
+        
+        <li>Gets involved in and identifies opportunities for team to participate in advisory, strategic, industry bodies to learn and share best practice in their area of business</li>
+        
+        <li>Consistently shows Dummy Co’s culture in their working style and approach.</li>
+        
+        <li>Is always transparent and open in their leadership.</li>
+        
+        <li>Challenges people around them to represent Dummy Co culture, while remaining approachable.</li>
+        
+        <li>Foresees culture issues as company grows and puts plans in place to mitigate them.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="teamwork-level5" class="teamwork">
+    
+    <h3>🤝 Teamwork</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Creates high performance environment within an area and has experience dealing with low-performance.</li>
+        
+        <li>Ensures that teams are moving quickly enough to meet the outlined goals.</li>
+        
+        <li>Makes data-driven decision with regards to hiring for roles in their teams to ensure that their squad remain high-performing.</li>
+        
+        <li>Know when to step back to build capability rather than directly driving initiatives.</li>
+        
+        <li>Has the ability to give skilled feedback that has accelerated the development of reports.</li>
+        
+        <li>Provides valuable feedback both to reports and up to own manager/lead to support their development and to support high performance and self awareness in the team.</li>
+        
+        <li>Is a trusted adviser to own manager/lead.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="impact-level5" class="impact">
+    
+    <h3>💥 Impact</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Anticipates near-term problems and delegates ownership appropriately.</li>
+        
+        <li>Retains accountability until problem fully resolved.</li>
+        
+        <li>You bring major crises under control in days where others might take weeks.</li>
+        
+        <li>Identifies both visible and less obvious problems across domains/for the org e.g - potential opportunity losses if we don’t do something and a competitor does - and prioritises accordingly.</li>
+        
+        <li>Presents vision to encourage setting of ambitious goals and helps direct execution.</li>
+        
+        <li>Unblocks problems of any size for their teams.</li>
+        
+        <li>Will consistently course-correct a team heading off the rails.</li>
+        
+        <li>Embeds the customer-focused culture within the team.</li>
+        
+        <li>Remains accountable for the blockers identified within the team that hinder our ability to help customers.</li>
+        
+        <li>Analyses where team can add the most value by combining customer focus with positive business results.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+<div id="knowledge-level5" class="knowledge">
+    
+    <h3>🧠 Knowledge</h3>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Leads multiple domains.</li>
+        
+        <li>Go to expert within industry, designing solutions that go beyond industry best practice and starting from first-principles.</li>
+        
+        <li>Wide understanding of scaling implications in the org (investment, risk).</li>
+        
+        <li>Leads multiple initiatives with scaling lens.</li>
+        
+        <li>Provides scaling predictions and plans to C Suite.</li>
+        
+        
+        
+        
+        
+        
+    </ul>
+</div>
+
+</div>
+
+
+<div id="main" class="level">
+    <div class="jumbotron mt-5 text-center">To view a framework, please select a level above.</div>
+</div>
+
+
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="/js/bootstrap-4.5.2/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
