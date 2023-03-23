@@ -18,10 +18,10 @@
     <link rel="canonical" href="{{ .Permalink }}"/>
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
-    <link rel="stylesheet" href="css/bootstrap-4.5.2/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-4.5.2/bootstrap-grid.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-4.5.2/bootstrap-reboot.min.css"/>
-    <link rel="stylesheet" href="css/sticky-footer.css"/>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-4.5.2/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-4.5.2/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-4.5.2/bootstrap-reboot.min.css"/>
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/sticky-footer.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <style>
         .bd-placeholder-img {
@@ -49,7 +49,7 @@
             $("#" + id).removeClass('d-none');
         }
     </script>
-    <link rel="stylesheet" href="css/dashboard.css"/>
+    <link rel="stylesheet" href="https://leeturner.github.io/hugo-progression-demo/css/dashboard.css"/>
     {{ if .OutputFormats.Get "RSS" }}
     {{ with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}"/>
